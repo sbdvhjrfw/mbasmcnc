@@ -6,7 +6,7 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content != 'smgnskdjgnkjdfnkf') {
+    if (message.content === 'smgnskdjgnkjdfnkf') {
     	message.reply('Én csak egy bot vagyok, hiába írsz üzenetet.');
   	}
 });
